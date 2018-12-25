@@ -9,7 +9,7 @@ Because pushing directly the fullclient on a server/ftp can provoke some errors,
  - Converting BMP files to PNG to speed up the transfer.
  - Optimized to don't call any script if files are already extracted/converted (resource friendly).
 
-###Add your fullclient###
+### Add your fullclient
 
 Just put your GRFs files and DATA.INI file in the `resources/` directory.
 Overwrite the `data/` and `BGM/` directories with your own folders.
@@ -18,13 +18,13 @@ Overwrite the `data/` and `BGM/` directories with your own folders.
 
 -----------------
 
-###Configure the remote client###
+### Configure the remote client
 
 Open *configs.php* file and complete it
 
 ----------------
 
-###Configure the rewrite rule###
+### Configure the rewrite rule
 
 Open *".htaccess"* file, you will have some example on how to modify the rewrite rule to match your url location :
 
